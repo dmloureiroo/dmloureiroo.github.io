@@ -1,9 +1,14 @@
-# Responsive Portfolio Complete
-## [Watch it on youtube](https://youtu.be/owEHlDn0JYQ)
-### Responsive Portfolio Complete
-Learn how to develop a clean and nice web portfolio, fully mobile first and responsive, for a designer or developer. Includes a side menu bar. At the beginning, your name, links to social networks and an image. Then the About section shows more information about you. Y Contains a list of skills offered.
+<h1 align="center">
+  danielloureiro.com
+</h1>
+<p align="center">
+  My personal website, <a href="https://danielloureiro.com" target="_blank">danielloureiro.com</a>
+  <br>
+  Built with HTML, CSS and Javascript it is hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, credits go to <a href="https://github.com/bedimcode/" target="_blank">Bedimcode</a> for the awesome website
+</p>
 
-It also has a part where you show your education studies with a timeline. Then a section where he offers his services and a section on Recent Jobs. And at the bottom you have a contact form, and at the bottom a footer.
+![demo](./assets/img/demo.png)
 
-Don't forget to join the channel for more videos like this.
-[Bedimcode](https://www.youtube.com/c/Bedimcode)
+## 🚨🚨🚨 Forking this repo (please read!)
+
+I did not design or build this website, I merely modified it. Last I checked, [Bedimcode](https://github.com/bedimcode/) allows people to use this code, but it would be better to hear it from Bedimcode himself, at his website's [GitHub page](https://github.com/bedimcode/responsive-portfolio-complete).

@@ -1,50 +1,322 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <!-- ===== CSS ===== -->
-        <link rel="stylesheet" href="">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!-- ===== BOX ICONS ===== -->
-        
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
 
-        <title>Responsive personal portfolio | Harris</title>
-    </head>
-    <body>
-        <!--===== HEADER =====-->
-        
 
-        <main class="l-main">
-            <!--===== HOME =====-->
-            
+    <title>Daniel | Software Engineer</title>
+</head>
+<body>
+<!--===== HEADER =====-->
+<header class="l-header">
+    <nav class="nav bd-grid">
+        <div class="nav__toggle" id="nav-toggle">
+            <i class="bx bx-menu"></i>
+        </div>
 
-            <!--===== ABOUT =====-->
-            
+        <div>
+            <a href="#" class="nav__logo">Daniel</a>
+        </div>
 
-            <!--===== SKILLS =====-->
-            
+        <div class="nav__menu" id="nav-menu">
+            <div class="nav__close" id="nav-close">
+                <i class="bx bx-x"></i>
+            </div>
 
-            <!--===== EDUCATION =====-->
-            
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                <li class="nav__item"><a href="#works" class="nav__link">Works</a></li>
+                <li class="nav__item"><a href="#contact" class="nav__link">Contact Me</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
-            <!--===== SERVICES =====-->
-            
 
-            <!--===== PROJECT IN MIND =====-->
-            
+<main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home" id="home">
+        <div class="home__container bd-grid">
+            <div class="home__data">
+                <div class="home__img">
+                    <img src="assets/img/photo-small-min.png" alt="">
+                </div>
 
-            <!--===== WORKS =====-->
-            
+                <h1 class="home__title">Daniel Loureiro</h1>
+                <span class="home__profession">Backend Developer</span>
 
-            <!--===== CONTACT =====-->
-            
-        </main>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/dmloureiroo/" class="home__social-link"><i class="bx bxl-linkedin"></i></a>
+                    <a href="https://github.com/dmloureiroo/" class="home__social-link"><i class="bx bxl-github"></i></a>
+                    <a href="https://stackoverflow.com/users/7563042/daniel-loureiro" class="home__social-link"><i class="bx bxl-stack-overflow"></i></a>
+                </div>
 
-        <!--===== FOOTER =====-->
-        
-        <!--===== MAIN JS =====-->
-        <script src=""></script>
-    </body>
+                <a download="" href="https://drive.google.com/file/d/1E78xwN4mjpYMbeYaYahpGk8iMW7V91Kb/view?usp=sharing" class="button home__button">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about">
+        <span class="section-subtitle">My intro</span>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about__container bd-grid">
+            <div class="about__data">
+                <p class="about__description">Notable success in designing and coding new software programs and developing
+                    existing programs by analysing and identifying areas for modification. Equipped in creating technical
+                    specifications and test plans for fault diagnosis. Adept at maintaining systems by monitoring and 
+                    correcting software defects. Proven track record of simulating, modelling in supporting continuous
+                    improvement by investigating alternatives and technologies and presenting these for architectural review.
+                </p>
+                <img src="assets/img/photo-min.png" alt="" class="about__img">
+            </div>
+
+            <div>
+                <div class="about__information">
+                    <h3 class="about__information-title">Information</h3>
+    
+                    <div class="about__information-data">
+                        <i class="bx bxs-user about__information-icon"></i>
+                        <span>Daniel Loureiro</span>
+                    </div>
+    
+                    <div class="about__information-data">
+                        <i class="bx bxs-phone about__information-icon"></i>
+                        <span>+44(0)7888 486013</span>
+                    </div>
+    
+                    <div class="about__information-data">
+                        <i class="bx bxs-envelope about__information-icon"></i>
+                        <span>dmloureiroo@gmail.com</span>
+                    </div>
+                </div>
+    
+                <div class="about__information">
+                    <h3 class="about__information-title">Experience and support</h3>
+    
+                    <div class="about__information-data">
+                        <i class="bx bxs-medal about__information-icon"></i>
+                        <div>
+                            <span class="about__information-subtitle">3 Years Job</span>
+                            <span class="about__information-subtitle-small">Experience</span>
+                        </div>
+                    </div>
+    
+                    <div class="about__information-data">
+                        <i class="bx bxs-briefcase about__information-icon"></i>
+                        <div>
+                            <span class="about__information-subtitle">5+ Projects</span>
+                            <span class="about__information-subtitle-small">Completed</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===== SKILLS =====-->
+    <section class="skills section" id="skills">
+        <span class="section-subtitle">Why Choose Me</span>
+        <h2 class="section-title">My expertise Area</h2>
+
+        <div class="skills__container bd-grid">
+            <div class="skills__content">
+                <h3 class="skills__subtitle">Backend</h3>
+
+                <div class="skills__data">
+                    <span class="skills__name">Java</span>
+                    <span class="skills__number">80%</span>
+                    <span class="skills__bar skills__java"></span>
+                </div>
+
+                <div class="skills__data">
+                    <span class="skills__name">Spring</span>
+                    <span class="skills__number">50%</span>
+                    <span class="skills__bar skills__spring"></span>
+                </div>
+
+                <div class="skills__data">
+                    <span class="skills__name">Python</span>
+                    <span class="skills__number">20%</span>
+                    <span class="skills__bar skills__python"></span>
+                </div>
+            </div>
+
+            <div class="skills__content">
+                <h3 class="skills__subtitle">Frontend</h3>
+
+                <div class="skills__data">
+                    <span class="skills__name">Angular</span>
+                    <span class="skills__number">20%</span>
+                    <span class="skills__bar skills__angular"></span>
+                </div>
+
+                <div class="skills__data">
+                    <span class="skills__name">Html/css</span>
+                    <span class="skills__number">80%</span>
+                    <span class="skills__bar skills__html"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===== EDUCATION =====-->
+    <section class="education section" id="education">
+        <span class="section-subtitle">Qualification</span>
+        <h2 class="section-title">My Education</h2>
+
+        <div class="education__container bg-grid">
+            <div class="education__content">
+                <div>
+                    <h3 class="education__year">2013-2017</h3>
+                    <span class="education__university">Instituto Politécnico de Viseu</span>
+                </div>
+
+                <div class="education__time">
+                    <span class="education__rounder"></span>
+                    <span class="education__line"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===== SERVICES =====-->
+    <section class="services section" id="services">
+        <span class="section-subtitle">What I Offer</span>
+        <h2 class="section-title">My Services</h2>
+
+        <div class="services__container bd-grid">
+            <div class="services__content">
+                <i class="bx bx-code services__icon"></i>
+                <h3 class="services__title">Software Development</h3>
+                <p class="services__description">This service that I offer is of high quality, and above all experience that I have in the labor field for many years</p>
+            </div>
+
+            <div class="services__content">
+                <i class="bx bx-server services__icon"></i>
+                <h3 class="services__title">Backend Development</h3>
+                <p class="services__description">This service that I offer is of high quality, and above all experience that I have in the labor field for many years</p>
+            </div>
+        </div>
+    </section>
+
+    <!--===== PROJECT IN MIND =====-->
+    <section class="project section">
+        <div class="project__container bd-grid">
+            <div class="project__data">
+                <h2 class="section-title project__title">Do you have a project in mind</h2>
+                <p class="project__description">If you have a project that you want to carry out. Do not hesitate
+                    and tell me what it is, and what services I can offer you, contact me directly here.
+                </p>
+                <a href="#contact" class="button button__light">Contact Me</a>
+            </div>
+
+            <img src="assets/img/photo-min.png" alt="" class="project__img">
+        </div>
+    </section>
+
+    <!--===== WORKS =====-->
+    <section class="works section" id="works">
+        <span class="section-subtitle">My portfolio</span>
+        <h2 class="section-title">Recent Works</h2>
+
+        <div class="works__container bd-grid">
+            <div class="works__img">
+                <img src="assets/img/busy-flights.jpeg" alt="">
+
+                <div class="works__data">
+                    <a href="https://github.com/dmloureiroo/busy-flights" class="works__link"><i class="bx bx-link-alt"></i></a>
+                    <span class="works__title">Busy Flights</span>
+                </div>
+            </div>
+
+            <div class="works__img">
+                <img src="assets/img/speaking-clock.jpeg" alt="">
+
+                <div class="works__data">
+                    <a href="https://github.com/dmloureiroo/speaking-clock" class="works__link"><i class="bx bx-link-alt"></i></a>
+                    <span class="works__title">Speaking Clock</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+        <span class="section-subtitle">Contact Me</span>
+        <h2 class="section-title">Get In Touch</h2>
+
+        <div class="contact__container bd-grid">
+            <form action="mailto:dmloureiroo@gmail.com?subject=PortfolioContact" class="contact__form" method="post" enctype="text/plain">
+                <div class="contact__inputs">
+                    <input type="text" name="name" placeholder="Name" class="contact__input">
+                    <input type="mail" name="mail" placeholder="Email" class="contact__input">
+                </div>
+
+                <input type="text" name="project" placeholder="Project" class="contact__input">
+
+                <textarea name="message" id="" cols="0" rows="10" placeholder="Message" class="contact__input"></textarea>
+
+                <input type="submit" value="Send" class="button contact__button">
+            </form>
+
+            <div>
+                <div class="contract__info">
+                    <h3 class="contract__subtitle">Call me</h3>
+                    <span class="contact__text">+44 (0)7888 486013</span>
+                </div>
+
+                <div class="contract__info">
+                    <h3 class="contract__subtitle">E-mail</h3>
+                    <span class="contact__text">dmloureiroo@gmail.com</span>
+                </div>
+
+                <div class="contract__info">
+                    <h3 class="contract__subtitle">Location</h3>
+                    <span class="contact__text">Islington</span>
+                    <span class="contact__text">London - United Kingdom</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!--===== FOOTER =====-->
+<footer class="footer section">
+    <div class="footer__container bd-grid">
+        <h1 class="footer__title">Daniel</h1>
+        <p class="footer__description">I am Daniel and this is my personal website, consult me here.</p>
+
+        <div class="footer__social">
+            <a href="https://twitter.com/umloureiro" class="footer__link"><i class="bx bxl-twitter"></i></a>
+            <a href="https://www.quora.com/profile/Daniel-Loureiro-4" class="footer__link"><i class="bx bxl-quora"></i></a>
+            <a href="https://medium.com/@dmloureiro" class="footer__link"><i class="bx bxl-medium"></i></a>
+        </div>
+
+        <p class="footer__text">
+            © 2021 - Template developed by <a href="https://github.com/bedimcode" target="_blank">Bedimcode</a>
+            </a>
+          </p>
+    </div>
+</footer>
+
+<!--===== SCROLL REVEAL =====-->
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<!--===== MAIN JS =====-->
+<script src="assets/js/main.js"></script>
+</body>
 </html>
